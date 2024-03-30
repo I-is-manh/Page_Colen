@@ -1,0 +1,23 @@
+:root{
+    --color-text:#889EB5;
+    --color-bg:#A15BD6;
+}
+body{
+    font-family: "Raleway", sans-serif;
+}
+body::marker{
+    color:pink;
+}
+.but{
+    width: 50%;
+    height: 40px;
+    background-color: #8261EE;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    color: white;
+    transition: background-color 0.45s ;
+}
+.but:hover{
+    background-color: #FF589E;
+}
